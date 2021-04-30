@@ -21,9 +21,15 @@ print(a2)
 
 print(np.ones((3,3),dtype = int))
 
-d = np.linspace(0,10,7)
+print(np.zeros((4,3),dtype = int))
+
+d = np.linspace(0,10,5)
 print(d)
 
 
-x = np.linspace( 0, 2*pi, 3 )
+x = np.linspace( 0, 2*pi, 4 )
 print(x)
+
+
+rg = np.random.default_rng(1)
+print(rg.random((2,4)))
